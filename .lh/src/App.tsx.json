@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1716798779716,
@@ -16,6 +16,10 @@
                 {
                     "date": 1716798988311,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,7 @@\n import './App.css';\n \n function App() {\n-\treturn (\n-\t\t<p>\n-\t\t\t<h1>Vite is running in %MODE%</h1>\n-\t\t</p>\n-\t);\n+\treturn <p></p>;\n }\n \n export default App;\n"
+                },
+                {
+                    "date": 1716802151339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n-import './App.css';\n+import \"./App.css\";\n \n function App() {\n-\treturn <p>hello</p>;\n+\treturn <p>hello world</p>;\n }\n \n export default App;\n"
                 }
             ],
             "date": 1716798779716,
