@@ -1,0 +1,26 @@
+{
+    "sourceFile": "vite.config.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1716798371835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1716798381717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n-import { defineConfig } from \"vite\";\n-import react from \"@vitejs/plugin-react-swc\";\n+import { defineConfig } from 'vite';\n \n+import react from '@vitejs/plugin-react-swc';\n+\n // https://vitejs.dev/config/\n export default defineConfig({\n \tplugins: [react()],\n });\n"
+                },
+                {
+                    "date": 1716798840497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,8 @@\n \n // https://vitejs.dev/config/\n export default defineConfig({\n \tplugins: [react()],\n+\tserver: {\n+\t\tport: 3000,\n+\t},\n });\n"
+                }
+            ],
+            "date": 1716798371835,
+            "name": "Commit-0",
+            "content": "import { defineConfig } from \"vite\";\nimport react from \"@vitejs/plugin-react-swc\";\n\n// https://vitejs.dev/config/\nexport default defineConfig({\n\tplugins: [react()],\n});\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/vite-env.d.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1716798751938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1716798751938,
+            "name": "Commit-0",
+            "content": "/// <reference types=\"vite/client\" />\ninterface ImportMetaEnv {\n\treadonly VITE_APP_TITLE: string;\n}\n\ninterface ImportMeta {\n\treadonly env: ImportMetaEnv;\n}\n"
+        }
+    ]
+}

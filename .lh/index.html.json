@@ -1,0 +1,26 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1716798964268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1716798975031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n </head>\n \n <body>\n   <div id=\"root\"></div>\n-  <h1>Vite is running in %MODE%</h1>\n   <script type=\"module\" src=\"/src/main.tsx\"></script>\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1716798982201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,12 @@\n <head>\n   <meta charset=\"UTF-8\" />\n   <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n-  <title>Vite + React + TS</title>\n+  <title>Vite is running in %MODE%</title>\n </head>\n \n+\n <body>\n   <div id=\"root\"></div>\n   <script type=\"module\" src=\"/src/main.tsx\"></script>\n </body>\n"
+                }
+            ],
+            "date": 1716798964268,
+            "name": "Commit-0",
+            "content": "<!doctype html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"UTF-8\" />\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>Vite + React + TS</title>\n</head>\n\n<body>\n  <div id=\"root\"></div>\n  <h1>Vite is running in %MODE%</h1>\n  <script type=\"module\" src=\"/src/main.tsx\"></script>\n</body>\n\n</html>"
+        }
+    ]
+}
