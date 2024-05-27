@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 5,
             "patches": [
                 {
                     "date": 1716798237308,
@@ -24,6 +24,10 @@
                 {
                     "date": 1716802096100,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,11 +20,8 @@\n \t\t\"@typescript-eslint/eslint-plugin\": \"^7.2.0\",\n \t\t\"@typescript-eslint/parser\": \"^7.2.0\",\n \t\t\"@vitejs/plugin-react-swc\": \"^3.5.0\",\n \t\t\"commitizen\": \"^4.3.0\",\n-\t\t\"eslint\": \"^8.57.0\",\n-\t\t\"eslint-plugin-react-hooks\": \"^4.6.0\",\n-\t\t\"eslint-plugin-react-refresh\": \"^0.4.6\",\n \t\t\"lefthook\": \"^1.6.13\",\n \t\t\"typescript\": \"^5.2.2\",\n \t\t\"vite\": \"^5.2.0\"\n \t}\n"
+                },
+                {
+                    "date": 1716802443017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,28 @@\n {\n-\t\"name\": \"my-bun-react\",\n-\t\"private\": true,\n-\t\"version\": \"0.0.0\",\n-\t\"type\": \"module\",\n-\t\"scripts\": {\n-\t\t\"commit\": \"cz\",\n-\t\t\"dev\": \"bunx --bun vite\",\n-\t\t\"build\": \"bunx --bun vite build\",\n-\t\t\"preview\": \"vite preview\"\n-\t},\n-\t\"dependencies\": {\n-\t\t\"react\": \"^18.2.0\",\n-\t\t\"react-dom\": \"^18.2.0\"\n-\t},\n-\t\"devDependencies\": {\n-\t\t\"@biomejs/biome\": \"1.7.3\",\n-\t\t\"@types/react\": \"^18.2.66\",\n-\t\t\"@types/react-dom\": \"^18.2.22\",\n-\t\t\"@typescript-eslint/eslint-plugin\": \"^7.2.0\",\n-\t\t\"@typescript-eslint/parser\": \"^7.2.0\",\n-\t\t\"@vitejs/plugin-react-swc\": \"^3.5.0\",\n-\t\t\"commitizen\": \"^4.3.0\",\n-\t\t\"lefthook\": \"^1.6.13\",\n-\t\t\"typescript\": \"^5.2.2\",\n-\t\t\"vite\": \"^5.2.0\"\n-\t}\n+  \"name\": \"my-bun-react\",\n+  \"private\": true,\n+  \"version\": \"0.0.0\",\n+  \"type\": \"module\",\n+  \"scripts\": {\n+    \"commit\": \"cz\",\n+    \"dev\": \"bunx --bun vite\",\n+    \"build\": \"bunx --bun vite build\",\n+    \"preview\": \"vite preview\"\n+  },\n+  \"dependencies\": {\n+    \"react\": \"^18.2.0\",\n+    \"react-dom\": \"^18.2.0\"\n+  },\n+  \"devDependencies\": {\n+    \"@biomejs/biome\": \"1.7.3\",\n+    \"@types/react\": \"^18.2.66\",\n+    \"@types/react-dom\": \"^18.2.22\",\n+    \"@typescript-eslint/eslint-plugin\": \"^7.2.0\",\n+    \"@typescript-eslint/parser\": \"^7.2.0\",\n+    \"@vitejs/plugin-react-swc\": \"^3.5.0\",\n+    \"commitizen\": \"^4.3.0\",\n+    \"lefthook\": \"^1.6.13\",\n+    \"typescript\": \"^5.2.2\",\n+    \"vite\": \"^5.2.0\"\n+  }\n }\n"
                 }
             ],
             "date": 1716798237308,
