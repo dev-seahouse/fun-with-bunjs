@@ -38,6 +38,10 @@ prepare-commit-msg:
     commitzen:
       interactive: true
       run: LEFTHOOK=0 bun run cz
+commit-msg:
+  commands:
+    commitlint:
+      run: bunx commitlint --edit {1}
 pre-commit:
   commands:
     check:
